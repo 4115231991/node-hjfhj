@@ -41,7 +41,7 @@ jobs:
         mkdir -p dist
 
     - name: Build Linux AMD64 binary
-      run: |fsdf
+      run: |
         pkg . --targets node20-linux-x64 --output dist/nodews_linux_amd64
         chmod +x dist/nodews_linux_amd64
 
